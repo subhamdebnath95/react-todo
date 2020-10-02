@@ -10,9 +10,6 @@ function App() {
   const [status ,setStatus]= useState('all');
   const [filteredTodos,setFilteredTodos] = useState([]);
 
-  console.log("hello");
-  var bs = 2;
-  console.log(bs);
   
   //Once
   useEffect(()=>{
