@@ -11,6 +11,8 @@ function App() {
   const [filteredTodos,setFilteredTodos] = useState([]);
 
   console.log("hello");
+  var bs = 2;
+  console.log(bs);
   
   //Once
   useEffect(()=>{
